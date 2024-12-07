@@ -2,3 +2,26 @@
 
 html, body { height: 100%; }
 body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+
+
+.cardstyle {
+    width: 500px;
+    border: 2px solid #4caf50; /* Green border */
+    border-radius: 8px;
+    padding: 16px; /* Optional: add some padding */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Optional: shadow effect */
+  }
+  
+  .cardstyle .mat-card-header {
+    background-color: #f0f0f0; /* Light gray header background */
+    padding: 8px;
+  }
+  
+  .cardstyle .mat-card-title {
+    font-weight: bold;
+  }
+  
+  .cardstyle .mat-card-content {
+    font-size: 14px;
+    color: #333;
+  }
